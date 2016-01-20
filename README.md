@@ -17,15 +17,15 @@ one to one chat between users registered on the app.
 Anyone can crank out a basic messaging app, but at
 Hive we face challenges that range from giving our users
 a good looking and responsive interface to being able to scale
-to providing our users with unexpected delights or easter eggs.
+to providing our users with unexpected delights and easter eggs.
 
-With this messaging app, we want you to go wild with whatever
-your "specialty" is! Front-end whiz? Let's see some impressive functional
-animations. Obsessed with back-end scalability? Show us why your app works
+With this challenge, we want you to go wild with whatever
+your "specialty" is. Front-end whiz? Let's see some impressive functional
+animations and responsive css. Obsessed with back-end scalability? Show us why your app works
 the same at 2 users as it does at 20,000.
 
-Whatever you feel you're most skilled at, let it shine through with whatever
-personal flair you have on the messaging app.
+Take what you feel you're most skilled at and let it shine through with whatever
+personal flair you want on this challenge.
 
 
 ### Functional spec
@@ -35,27 +35,36 @@ The features of the app should include:
 * Upon registration, user should be added to "global" room
 * Users should be able to "direct message" any other registered user
 * UI should (obviously) have a basic message box for chatting
-* Chat rooms should have infinite scroll so a user can see message history
-* Messages UI should have sender information, date/time information and message
-text
 
-The front-end UI and UX is totally up to you. Get creative here! Add any features
-you feel might be useful or cool to have as a user.
+**The front-end UI and UX is totally up to you**. Get creative here. Add any features
+you feel might be useful or cool to have as a user. Don't hold back at all - the idea behind this exercise is to give you freedom to build cool/unique features on top of a simple concept.
 
 
 Technical spec
 --------------
 
-At Hive we use [Meteor](docs.meteor.com/#/full/) - for this challenge you'll be using it as well.
-It comes with Accounts for users baked in and is generally very quick to get started with.
+At Hive we use [Meteor](docs.meteor.com/#/full/) - for this challenge you'll be using it as well. Even if you're
+not familiar with it, we feel it's important to be able to pick up on new technologies quickly - and Meteor
+is pretty easy to get up & running with. Also it comes with Accounts for users baked in, so it'll make the challenge
+a bit easier.
 
 The [Meteor guide](http://guide.meteor.com/) is an **excellent** source of Meteor best practices and information as well.
 
+If you're entirely new to Meteor, try [creating your first app](https://www.meteor.com/tutorials/blaze/creating-an-app) to get a hang of things before moving on.
+
 ### Back-end
-Meteor includes all you'll really need for back-end. If your focus/specialty is back-end, make sure your app is secure, performant and follows best practices
+Meteor includes all you'll really need for back-end. If your focus/specialty is back-end, make sure your app is secure, performant and follows best practices. Meteor is built on node.js and utilizes [fibers for a synchronous code style](https://www.eventedmind.com/feed/nodejs-introducing-fibers).
 
 ### Front-end
+##### React
 We recommend using [React](https://facebook.github.io/react/) as a framework on the front-end with Meteor. Meteor provides a basic example of using [React with Meteor](https://www.meteor.com/tutorials/react/creating-an-app) if you're not familiar with it already.
+
+##### Blaze (Handlebars-style templating)
+**If you're not comfortable with React, that's okay.** While we'd prefer to see the front-end implemented with React, we know the learning curve can be steep especially for someone that hasn't used it before. Meteor uses [Blaze](https://www.meteor.com/blaze) by default; Blaze is essentially a Meteor-flavored version of Handlebars templating.
+
+##### Angular
+As of Meteor 1.2, Angular is also supported. While this is our least preferred option, it is acceptable - [check out a sample Meteor app + tutorial](https://www.meteor.com/tutorials/angular/creating-an-app) if you need help getting started.
+
 #### Styling
 Feel free to use one of the popular CSS frameworks for styling if you'd like, but if your specialty is creating beautiful html/css then don't limit yourself to a framework!
 
