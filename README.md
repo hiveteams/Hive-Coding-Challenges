@@ -34,7 +34,8 @@ The features of the app should include:
 * User registration and login
 * Upon registration, user should be added to "global" room
 * Users should be able to "direct message" any other registered user
-* UI should (obviously) have a basic message box for chatting
+* UI should have a basic message box for chatting
+* UI should be responsive (mobile-friendly)
 
 **The front-end UI and UX is totally up to you**. Get creative here. Add any features
 you feel might be useful or cool to have as a user. Don't hold back at all - the idea behind this exercise is to give you freedom to build cool/unique features on top of a simple concept.
@@ -56,11 +57,13 @@ If you're entirely new to Meteor, try [creating your first app](https://www.mete
 Meteor includes all you'll really need for back-end. If your focus/specialty is back-end, make sure your app is secure, performant and follows best practices. Meteor is built on node.js and utilizes [fibers for a synchronous code style](https://www.eventedmind.com/feed/nodejs-introducing-fibers).
 
 ### Front-end
-##### React
-We recommend using [React](https://facebook.github.io/react/) as a framework on the front-end with Meteor. Meteor provides a basic example of using [React with Meteor](https://www.meteor.com/tutorials/react/creating-an-app) if you're not familiar with it already.
+Hive is built using Blaze. We don't have a preference on what front-end library you use here, so stick with whatever is most comfortable for you, or challenge yourself if you're up for it.
 
 ##### Blaze (Handlebars-style templating)
-**If you're not comfortable with React, that's okay.** While we'd prefer to see the front-end implemented with React, we know the learning curve can be steep especially for someone that hasn't used it before. Meteor uses [Blaze](https://www.meteor.com/blaze) by default; Blaze is essentially a Meteor-flavored version of Handlebars templating.
+Meteor uses [Blaze](https://www.meteor.com/blaze) by default; Blaze is essentially a Meteor-flavored version of Handlebars templating. It's great for quickly building/prototyping, but requires a bit of discipline to keep clean.
+
+##### React
+[React](https://facebook.github.io/react/) is supported as a front-end library with Meteor. Meteor provides a basic example of using [React with Meteor](https://www.meteor.com/tutorials/react/creating-an-app) if you're not familiar with it already.
 
 ##### Angular
 As of Meteor 1.2, Angular is also supported. While this is our least preferred option, it is acceptable - [check out a sample Meteor app + tutorial](https://www.meteor.com/tutorials/angular/creating-an-app) if you need help getting started.
@@ -71,4 +74,4 @@ Feel free to use one of the popular CSS frameworks for styling if you'd like, bu
 Host it!
 --------
 
-When you’re done, host it somewhere. Using Meteor, you can [easily deploy it for free](https://www.meteor.com/tutorials/blaze/deploying-your-app). If you'd like to host elsewhere (e.g. on AWS, Heroku, Modulus, Google AppEngine, etc.) that's fine too.
+Meteor used to provide free hosting for Meteor apps, but now you'll need to do a bit more work to get it live. You can use [Meteor Up] (https://github.com/zodern/meteor-up) to host it on any box (e.g. on AWS, Heroku, Modulus).
